@@ -59,7 +59,9 @@ python -m pytest -v --html=report.html
 
 ## 📊 Sample Output
 
-(Add screenshots here)
+<img width="1919" height="1009" alt="image" src="https://github.com/user-attachments/assets/7de7a285-d52f-4b61-ace7-e1299efc2cdb" />
+
+
 
 ---
 
@@ -73,6 +75,6 @@ python -m pytest -v --html=report.html
 
 ---
 
-## 💬 Interview Summary
+
 
 "I built a PyTest-based API testing framework that validates response structure, performance, and handles both positive and negative scenarios for a probabilistic AI system."
