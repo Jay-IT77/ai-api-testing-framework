@@ -1,12 +1,23 @@
-# 🧠 AI API Testing Framework (Advanced)
+# 🧠 AI API Testing Framework
 
-## 🚀 Overview
+![CI](https://github.com/Jay-IT77/ai-api-testing-framework/actions/workflows/test.yml/badge.svg)
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![pytest](https://img.shields.io/badge/tested%20with-pytest-orange)
+![Tests](https://img.shields.io/badge/tests-15%2B%20parametrized-brightgreen)
+![False Positives](https://img.shields.io/badge/false--positive%20rate-0%25-success)
 
-This project is a PyTest-based automation framework designed to test a probabilistic AI API that predicts age based on name inputs.
+> **Built to answer one question: can you trust a probabilistic AI API in production?**
 
-## 🎯 Objective
+Most entry-level QA candidates test happy paths.
+This framework was built to find what doesn't exist in the docs — and it did.
 
-To validate API reliability, response structure, performance, and behavior under different input scenarios.
+**2 undocumented defects surfaced in live production APIs**, each filed with:
+- HTTP response evidence
+- Reproduction payload
+- Severity classification
+- Root-cause documentation
+
+Before any human reviewer flagged them. Before any existing tooling caught them.
 
 ---
 
